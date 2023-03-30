@@ -59,7 +59,7 @@ MAIN = [
 ]
 X = [
     [
-        InlineKeyboardButton(text="🎀『 𝙁 𝘾 𝙍 ✘ 𝙏 𝘼 』🎀", url=f"t.me/DO_JISM_EK_JAAN_OP")
+        InlineKeyboardButton(text="🎀『Owner』🎀", url=f"tg://settings")
     ],
 ]
 PNG_BTN = [
@@ -71,7 +71,7 @@ PNG_BTN = [
      ],
 ]
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('SOURCE', url=f"{SOURCE}")]])
-HELP_READ = "I can Clear Your Doubt, Your Questions, Your Homework Question 😂 Anything U want u can ask me just Type kannadiga before ur question ~ Example Type - `Kannadiga Write a python code to calculate the given numbers.`"
+HELP_READ = "I can Clear Your Doubt, Your Questions, Your Homework Question 😂 Anything U want u can ask me just Type Pallu before ur question ~ Example Type - `Pallu Write a python code to calculate the given numbers.`"
 HELP_BACK = [
     [
            InlineKeyboardButton(text="𝙱𝙰𝙲𝙺", callback_data="HELP_BACK"),
@@ -125,7 +125,7 @@ async def source(bot, m):
 @Rachit.on_message(filters.command(["ping"], prefixes=["","+", "/", "-", "?", "$", "&","."]))
 async def ping(client, message: Message):
         start = datetime.now()
-        t = "**🔁|𝙱𝙰𝙱𝚄 𝙴𝙺 𝚂𝙴𝙲 𝚁𝚄𝙺𝙾 😘...**"
+        t = "**🔁|𝙱𝚁𝙾 𝙴𝙺 𝚂𝙴𝙲 𝚁𝚄𝙺𝙾 😘...**"
         txxt = await message.reply(t)
         await asyncio.sleep(0.25)
         await txxt.edit_text("**✅|ummmm😍**")
@@ -141,7 +141,7 @@ async def ping(client, message: Message):
 
 #  main   
 openai.api_key = OPENAI_KEY
-@Rachit.on_message(filters.command(["Kanadiga","kannadiga","@naankannadiga_bot"],  prefixes=["","+", ".", "/", "-", "?", "$","#","&"]))
+@Rachit.on_message(filters.command(["Pallu","Pallavi","@cutePallu_bot"],  prefixes=["","+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(bot, message):
     
     try:
@@ -149,7 +149,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "Example:**\n\n`Lannadiga Who is Alexa?`")
+            "Example:**\n\n`Pallu Who is Alexa?`")
         else:
 
             a = message.text.split(' ', 1)[1]
