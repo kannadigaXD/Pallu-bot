@@ -50,7 +50,7 @@ MAIN = [
     [
         InlineKeyboardButton(
             text="𝙰𝙳𝙳 𝙼𝙴",
-            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+            url=f"https://t.me/naankannadiga_bot?startgroup=true",
         ),
     ],
     [
@@ -66,7 +66,7 @@ PNG_BTN = [
     [
          InlineKeyboardButton(
              text="𝙰𝙳𝙳 𝙼𝙴",
-             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+             url=f"https://t.me/naankannadiga_bot?startgroup=true",
          ),
      ],
 ]
