@@ -28,8 +28,8 @@ Rachit = Client(
 START = f"""
 Hui! I am Kannadiga 😘 An advanced Google Bot 
 
-⚡ Owner - @KannadigaXD
-⚡ Support - @kannadigaruXD
+⚡ Owner - @About_shaan
+⚡ Support - @karunada_kings_kingdom
 
 U can Use me By Adding `kannadiga` Before Your Question.
 """
@@ -50,7 +50,7 @@ MAIN = [
     [
         InlineKeyboardButton(
             text="𝙰𝙳𝙳 𝙼𝙴",
-            url=f"https://t.me/naankannadiga_bot?startgroup=true",
+            url=f"https://t.me/karnataka_superbot?startgroup=true",
         ),
     ],
     [
@@ -66,12 +66,12 @@ PNG_BTN = [
     [
          InlineKeyboardButton(
              text="𝙰𝙳𝙳 𝙼𝙴",
-             url=f"https://t.me/naankannadiga_bot?startgroup=true",
+             url=f"https://t.me/karnataka_superbot?startgroup=true",
          ),
      ],
 ]
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('SOURCE', url=f"{SOURCE}")]])
-HELP_READ = "I can Clear Your Doubt, Your Questions, Your Homework Question 😂 Anything U want u can ask me just Type Pallu before ur question ~ Example Type - `Pallu Write a python code to calculate the given numbers.`"
+HELP_READ = "I can Clear Your Doubt, Your Questions, Your Homework Question 😂 Anything U want u can ask me just Type Pallu before ur question ~ Example Type - `ammu Write a python code to calculate the given numbers.`"
 HELP_BACK = [
     [
            InlineKeyboardButton(text="𝙱𝙰𝙲𝙺", callback_data="HELP_BACK"),
@@ -170,7 +170,7 @@ s = bytearray.fromhex("68 74 74 70 73 3A 2F 2F 67 69 74 68 75 62 2E 63 6F 6D 2F 
 u = bytearray.fromhex("49  54 7A 5F 4C 45 47 45 4E 44 5F 43 4F 44 45 52").decode()
 d= bytearray.fromhex("4D 52 5F 53 55 4B 4B 55 4E").decode()
 if SOURCE != s:
-    print("So sad, you have changed source, change it back to ` https://t.me/kannadigaruXD `  else I won't work")
+    print("So sad, you have changed source, change it back to ` https://t.me/about_shaan `  else I won't work")
     sys.exit(1)  
 if DEVELOPER!=u:
     print("So sad, you have changed Updates, change it back to `KannadigaXD ` else I won't work")
